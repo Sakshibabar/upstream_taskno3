@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:ital,wght@1,500&display=swap');
+
+.infocontaniar_about{ 
+     /* display: flex; */
+        width:60vw;
+        height: 68vh;
+        margin: 144px auto;   
+        text-align:center;  
+} 
+
+.colorlib-heading{
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(141, 136, 136);
+  
+}
+
+.infocontaniar_about h3{
+   
+    margin-top: 30px;
+    text-align: justify;
+    font-weight: 650;
+    color:rgb(141, 136, 136) ;
+}
+

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+
+
+}
+
+body {
+  background-image: url("back.jpg");
+}
+
+.contanair {
+  display: flex;
+
+
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.heading {
+  padding: 40px 1px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  text-align: center;
+  padding: 20px;
+}
+
+ul li {
+  list-style: none;
+  padding: 30px 30px;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+
+}
+
+.sidebar {
+  position: absolute;
+  background-color: rgb(200, 225, 225);
+  width: 300px;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li a:hover {
+  background-color: rgb(15, 16, 16);
+  color: bisque;
+  transition: transform 0.5s ease-in;
+}
+
+
+.navbar {
+  text-align: center;
+  padding: 30px;
+
+
+}
+
+.copyright {
+  padding: 20px 10px;
+  color: darkgrey
+}
+
+.main {
+  width: 80vw;
+}
+
+@media(max-width:1200px) {
+  * {
+    /* background-color: rgb(218, 174, 239); */
+  }
+
+  .sidebar {
+    /* transform: translate(-443px,0px); */
+    /* position:absolute; */
+  }
+}
+
+.sidebargo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.cross {
+  margin-left: 255px;
+  margin-top: 8px;
+
+}
+
+.ham {
+  margin-top: 8px;
+  color: white;
+}
+
+.infocontaniar {
+  display: flex;
+  width: 60vw;
+  height: 68vh;
+  margin: 144px auto;
+
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.devpng img {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0px 100px 0px 70px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(19, 20, 20);
+  border-radius: 0.5em;
+  padding: 1% 20px 2% 2%;
+  cursor: pointer;
+  margin: 10px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.devinfo p {
+  padding: 30px;
+}
+
+.devpng {
+  display: none;
+}
+
+.hii {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+}
+
+.name {
+  font-size: 50px;
+  color: aliceblue;
+}
+
+.about {
+  font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.Button {
+  padding: 20px;
+}
